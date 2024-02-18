@@ -1,6 +1,13 @@
 /* body{
     overflow-x: hidden;
 } */
-.m-left{
-    margin-left: 10px;
+.m-left {
+  margin-left: 10px;
+}
+.collection {
+  font-size: 4rem;
+  color: transparent;
+  /* text-shadow: -1px 1px 0 #0000; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #8aa787;
 }
