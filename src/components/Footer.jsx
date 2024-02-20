@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from '../assets/ags-new.png'
 export default function Footer() {
   return (
-      <footer className="bg-white border-y z-12">
+      <footer className="bg-[#191919] border-y z-12">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
               <div className="md:flex md:justify-between">
                   <div className="mb-6 md:mb-0">
@@ -14,19 +14,24 @@ export default function Footer() {
                               alt="Logo"
                           />
                       </Link>
-                      <p className="sofa text-center text-xl">Sofa's</p>
+                      <p className="sofa text-center text-xl text-white">Sofa's</p>
                   </div>
                   <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                       <div>
-                          <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
+                          {/* <h2 className="mb-6 text-sm font-semibold  text-white uppercase">Resources</h2> */}
                           <ul className="text-gray-500 font-medium">
                               <li className="mb-4">
-                                  <Link to="/" className="hover:underline">
+                                  <Link to="/" className="hover:text-green-700 text-white">
                                       Home
                                   </Link>
                               </li>
+                              <li className="mb-4">
+                                  <Link to="/" className="hover:text-green-700 text-white">
+                                      Contact
+                                  </Link>
+                              </li>
                               <li>
-                                  <Link to="/about" className="hover:underline">
+                                  <Link to="/about" className="hover:text-green-700 text-white">
                                       About
                                   </Link>
                               </li>
@@ -38,7 +43,7 @@ export default function Footer() {
                               <li className="mb-4">
                                   <a
                                       href="https://github.com/hiteshchoudhary"
-                                      className="hover:underline"
+                                      className="hover:font-green-600"
                                       target="_blank"
                                       rel="noreferrer"
                                   >
@@ -46,35 +51,48 @@ export default function Footer() {
                                   </a>
                               </li>
                               <li>
-                                  <Link to="/" className="hover:underline">
+                                  <Link to="/" className="hover:font-green-600">
                                       Discord
                                   </Link>
                               </li>
                           </ul>
                       </div> */}
                       <div>
-                          <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
+                          <h2 className="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
                           <ul className="text-gray-500 font-medium">
                               <li className="mb-4">
-                                  <Link to="#" className="hover:underline">
+                                  <Link to="/privicypage" className="hover:text-green-700  text-white">
                                       Privacy Policy
                                   </Link>
                               </li>
                               <li>
-                                  <Link to="#" className="hover:underline">
+                                  <Link to="#" className="hover:text-green-700 text-white">
                                       Terms &amp; Conditions
+                                  </Link>
+                              </li>
+                          </ul>
+                      </div>
+                      <div>
+                          <h2 className="mb-6 text-sm font-semibold text-white uppercase">contact</h2>
+                          <ul className="text-gray-500 font-medium">
+                              <li className="mb-1">
+                                  <Link to="" className="hover:text-green-700  text-white ">
+                                    (+ 91)987654321
+                                  </Link>
+                              </li>
+                              <li>
+                                  <Link to="#" className="hover:text-green-700 text-white">
+                                     ags@gmail.com
                                   </Link>
                               </li>
                           </ul>
                       </div>
                   </div>
               </div>
-              <hr className="my-6 border-gray-600 sm:mx-auto lg:my-8" />
+              <hr className="my-4 border-gray-300 sm:mx-auto lg:my-8" />
               <div className="sm:flex  sm:items-center sm:justify-center">
-                  <span className="text-md text-gray-800 sm:text-center">
-                    © 2023 AGS sofa's . All Rights Reserved.
-                      <a href="/" className="hover:underline">
-                      </a>
+                  <span className="text-md sm:text-center text-white">
+                    © 2024 AGS sofa's . All Rights Reserved.
                   </span>
                   {/* all logo and links */}
                   {/* <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">

@@ -5,7 +5,7 @@ import servicesInfo from "../assets/services-info.jpg";
 const Services = () => {
   return (
     <div
-      className="h-[100vh] flex justify-center overflow-x-hidden"
+      className="h-[120vh] flex justify-center overflow-x-hidden"
       style={{ justifyContent: "center" }}
     >
 
