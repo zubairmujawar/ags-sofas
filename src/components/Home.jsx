@@ -24,12 +24,13 @@ const Home = () => {
     </div>
     {/* About page */}
     <div className=" h-[120vh] sm:h-[100vh] flex justify-center" >
-      <img
+      {/* <img
         src={aboutImg}
         alt=" home-page-img"
         className="object-cover bg-cover h-full w-full"
         
-      />
+      /> */}
+      <div className="animation-div"></div>
       <div className=" absolute w-full h-full grid items-center gap-5 sm:grid-cols-10">
         <div className="sm:col-span-6" style={{paddingLeft: "2rem"}}>
           <h1 className="font-bold sm:text-5xl text-2xl p-5 self-start">About</h1>
@@ -45,6 +46,8 @@ const Home = () => {
         <div className=" min-h-[200px] py-4 sm:w-[28rem] sm:px-5 sm:col-span-4">
           <img src={aboutChair} alt="aboutChairImg"  className="sm:w-full"/>  
         </div>
+        <div className="animation-div-right"></div>
+    <div className="animation-div-home-about"></div>
       </div>
     </div>
     {/* services page */}
@@ -58,6 +61,7 @@ const Home = () => {
         alt=" home-page-img"
         className=" bg-cover sm:h-[120vh] w-full "
       /> */}
+      <div className="animation-div"></div>
       <div
         className=" absolute h-full grid items-center  bg-white sm:grid-cols-10"
         style={{ justifyItems: "center" }}
@@ -81,6 +85,7 @@ const Home = () => {
               buy now
             </span>
           </button>
+          <div className="animation-div"></div>
         </div>
         <div className="sm:col-span-2"></div>
         <div className=" sm:w-[60vw] sm:px-5 sm:col-span-4">
@@ -89,7 +94,7 @@ const Home = () => {
             alt="servicesInfo"
             className=""
           />
-          
+          <div className="animation-div"></div>
         </div>
       </div>
     </div>

@@ -14,6 +14,7 @@ const Services = () => {
         alt=" home-page-img"
         className=" bg-cover sm:h-[120vh] w-full "
       /> */}
+      <div className="animation-div"></div>
       <div
         className=" absolute h-full grid items-center  bg-white sm:grid-cols-10"
         style={{ justifyItems: "center" }}
@@ -37,6 +38,7 @@ const Services = () => {
               buy now
             </span>
           </button>
+          <div className="animation-div"></div>
         </div>
         <div className="sm:col-span-2"></div>
         <div className=" sm:w-[60vw] sm:px-5 sm:col-span-4">
@@ -45,7 +47,7 @@ const Services = () => {
             alt="servicesInfo"
             className=""
           />
-          
+          <div className="animation-div"></div>
         </div>
       </div>
     </div>
