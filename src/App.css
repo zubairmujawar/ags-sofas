@@ -1,13 +1,28 @@
-/* body{
-    overflow-x: hidden;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Charm:wght@400;700&display=swap');
 .m-left {
   margin-left: 10px;
 }
 .collection {
-  font-size: 4rem;
+  /* font-size: 4rem; */
   color: transparent;
   /* text-shadow: -1px 1px 0 #0000; */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #8aa787;
+}
+.logo{
+  aspect-ratio: 12/5;
+}
+.charm-bold {
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.sofa{
+  font-family: "Annapurna SIL", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+  overflow-x: hidden;
 }

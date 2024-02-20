@@ -3,7 +3,7 @@ import aboutImg from "../assets/about-bg.jpg";
 import aboutChair from "../assets/about-chair.png";
 const About = () => {
   return (
-    <div className="w-[100vw] h-[120vh]  flex justify-center" >
+    <div className=" h-[120vh] sm:h-[100vh] flex justify-center" >
       <img
         src={aboutImg}
         alt=" home-page-img"
