@@ -11,7 +11,7 @@ const Home = () => {
         <img
           src={bgImg}
           alt=" home-page-img"
-          className=" bg-contain h-full w-full blur-[2px]"
+          className=" bg-contain object-cover h-full w-full blur-[2px]"
         />
         <div className="absolute flex justify-center bg-transparent-30 rounded-lg m-3 p-4 items-center flex-col sm:w-43 sm:gap-[4rem] mb-16">
           <h1 className="font-bold sm:text-8xl text-5xl charm-bold">
@@ -60,9 +60,9 @@ const Home = () => {
           <div className="animation-div-home-about"></div>
         </div>
       </div>
-      {/* services page */}
+      {/* ----------------------- services page ------------------- */}
       <div
-      className="h-[110vh] flex justify-center overflow-x-hidden"
+      className="h-[120vh] flex justify-center overflow-x-hidden"
       style={{ justifyContent: "center" }}
     >
 
@@ -71,7 +71,7 @@ const Home = () => {
         alt=" home-page-img"
         className=" bg-cover sm:h-[120vh] w-full "
       /> */}
-      {/* <div className="animation-div block"></div> */}
+      <div className="animation-div z-20"></div>
       <div
         className=" absolute h-full grid items-center  bg-white sm:grid-cols-10"
         style={{ justifyItems: "center" }}
@@ -102,9 +102,9 @@ const Home = () => {
           <img
             src={servicesInfo}
             alt="servicesInfo"
-            className="w-[90%] z-[-1] sm:h-[80%]"
+            className=""
           />
-          {/* <div className="animation-div"></div> */}
+          <div className="animation-div"></div>
         </div>
       </div>
     </div>
